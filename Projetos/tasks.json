@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compilar C",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-Wall",
+                "-Wextra",
+                "-g3",
+                "c:/Users/guste/OneDrive/Documentos/Projetos/fasesaprojeto1.c",
+                "-o",
+                "c:/Users/guste/OneDrive/Documentos/Projetos/output/fasesaprojeto1.exe"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
